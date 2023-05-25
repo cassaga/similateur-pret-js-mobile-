@@ -1,7 +1,7 @@
-var P, R, N, pie, line;
-var loan_amt_slider = document.getElementById("loan-amount");
-var int_rate_slider = document.getElementById("interest-rate");
-var loan_period_slider = document.getElementById("loan-period");
+const P, R, N, pie, line;
+const loan_amt_slider = document.getElementById("loan-amount");
+const int_rate_slider = document.getElementById("interest-rate");
+const loan_period_slider = document.getElementById("loan-period");
 
 // update loan amount
 loan_amt_slider.addEventListener("input", (self) => {
